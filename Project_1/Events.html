@@ -2,33 +2,41 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/commun.css">
+	<link rel="icon" href="images/Logo.jpg" type="image/jpg" />
 	<title>My best compagny</title>
 </head>
 <body>
 	<header>
-		<img src="images/Logo.jpg">
+		<img src="images/Logo.jpg" id="logo">
 		<h1>Grammouncho</h1>
 	</header>
 	<nav>
 		<ul>
-			<li>Home</li>
-			<li>About us
-				<ul>
-					<li>Presentation</li>
-					<li>Staff</li>
+			<li><a href="FirstPage.html">Home</a></li>
+			<li class="deroulant">About us
+				<ul class="sous">
+					<li><a href="Presentation.html">Presentation</a></li>
+					<li><a href="Equipe.html">Personne</a></li>
 				</ul>
 			</li>
-			<li>Store</li>
-			<li>News</li>
-				<ul>
-					<li>Events</li>
-					<li>Job offers</li>
+			<li class="deroulant"><a href="Store.html">Store &ensp;</a>
+				<ul class="sous">
+					<li><a href="Equipement.html">Equipements</a></li>
+					<li><a href="Formation.html">Formations</a></li>
+					<li><a href="Services.html">Services</a></li>
 				</ul>
 			</li>
-			<li>Contact
-				<ul>
-					<li>Maps</li>
-					<li>Message</li>
+			<li class="deroulant">News
+				<ul class="sous">
+					<li><a href="Events.html">Events</a></li>
+					<li><a href="JobOffers.html">Job offers</a></li>
+				</ul>
+			</li>
+			<li class="deroulant">Contact
+				<ul class="sous">
+					<li><a href="Maps.html">Maps</a></li>
+					<li><a href="Message.html">Envoyez-nous un message</a></li>
 				</ul>
 			</li>
 		</ul>

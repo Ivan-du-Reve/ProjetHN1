@@ -1,0 +1,67 @@
+header{
+	background-image: url(../images/evolution_science.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	color: red;
+}
+#logo{
+	width: 100px;
+	height: 100px;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: orange;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+    color: black; 
+}
+.deroulant{
+    display: block;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+.sous{
+    display: none;
+    position:absolute;
+    background-color: gray;
+    width: 80%;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+h2{
+    color: red;
+}
+p{
+    text-align: center;
+}
+
